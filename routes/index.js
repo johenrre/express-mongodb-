@@ -27,6 +27,10 @@ index.post('/login', (request, response) => {
     }
 })
 
+index.get('/test',  (request, response) => {
+    response.send("test sucess")
+})
+
 index.post('/register', (request, response) => {
     const form = request.body
     const u = User.create(form)

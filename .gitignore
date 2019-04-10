@@ -35,3 +35,6 @@
 
 # activate webpack alias in webstorm
 # webpack.config.js
+
+
+/yarn.lock
