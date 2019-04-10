@@ -3,9 +3,10 @@ server {
     # location / {
     #    proxy_pass http://0.0.0.0:5000;
     # }
+    root /home/www/express-mongodb-boilerplate/dist;
+
 
     location / {
-        root /home/www/express-mongodb-boilerplate/dist;
         #转发任何请求到 index.html
         index index.html;
     }
