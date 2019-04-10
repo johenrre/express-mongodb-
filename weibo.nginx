@@ -1,6 +1,12 @@
 server {
     listen 80;
+    # location / {
+    #    proxy_pass http://0.0.0.0:5000;
+    # }
+
     location / {
-        proxy_pass http://0.0.0.0:5000;
+        root /dist;
+        #转发任何请求到 index.html
+        index index.html;
     }
 }
