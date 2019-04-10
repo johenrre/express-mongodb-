@@ -3,7 +3,7 @@ server {
     # location / {
     #    proxy_pass http://0.0.0.0:5000;
     # }
-    root /home/www/express-mongodb-boilerplate/dist;
+    root /var/www/express-mongodb-boilerplate/dist;
 
 
     location / {
