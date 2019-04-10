@@ -5,7 +5,7 @@ server {
     # }
 
     location / {
-        root /dist;
+        root /home/www/express-mongodb-boilerplate/dist;
         #转发任何请求到 index.html
         index index.html;
     }
