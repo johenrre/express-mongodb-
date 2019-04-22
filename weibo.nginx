@@ -19,4 +19,10 @@ server {
         #转发任何请求到 index.html
         index index.html;
     }
+
+    location /backstage-management {
+        root /var/www/dist;
+        #转发任何请求到 index.html
+        index index.html;
+    }
 }
