@@ -25,4 +25,10 @@ server {
         #转发任何请求到 index.html
         index index.html;
     }
+    # 个人简历
+    location /resume {
+        root /var/www/dist;
+        #转发任何请求到 index.html
+        index index.html;
+    }
 }
